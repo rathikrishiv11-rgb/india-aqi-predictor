@@ -4,7 +4,7 @@ A machine learning web application that forecasts next-day Air Quality Index
 (AQI) for Indian cities and provides actionable health advisories based on 
 CPCB standards.
 
-**Live App:** [Link coming after deployment]
+**Live App:** [https://india-aqi-predictor-nlqnbnfgfeqqygreieuftq.streamlit.app/]
 
 ---
 
