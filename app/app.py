@@ -3,9 +3,7 @@ import subprocess
 import os
 
 if not os.path.exists("models/rf_model.pkl"):
-    with st.spinner("Setting up model for first time... (this takes ~30 seconds)"):
-        subprocess.run(["python", "src/clean.py"], check=True)
-        subprocess.run(["python", "src/features.py"], check=True)
+    with st.spinner("Training model... (first time only, ~30 seconds)"):
         subprocess.run(["python", "src/train.py"], check=True)
 
 import pandas as pd
